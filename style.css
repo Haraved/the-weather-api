@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.right-content{
+    background: rgb(206, 212, 218, 0.5);
+    width: 85vh;
+    height: 100vh;
+    padding: 30px;
+    align-items: center;
+}
+input {
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid #9b9b9b;
+    font-family: inherit;
+    background: transparent;
+    transition: border-color 0.2s;
+    outline: none;
+    font-size: 1.1rem;
+    padding: 7px;
+}
+button {
+    outline: none;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    background: rgba(108, 117, 125, 0.3);
+}
+button:hover{
+    background:rgba(37, 36, 34, 0.3);
+    transform: translateY(-2px);
+}
+.icon{
+    width: 25px;
+}
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 25vh;
+    font-size: 1.1rem;
+    margin-left: 5px;
+    color: black;
+}
+.line{
+    padding: 10px;
+    width: 95%;
+    border-bottom: 2px solid #9b9b9b;
+    margin-bottom: 20px;
+}
+h4{
+    padding: 25px 0 25px 0;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+.name-value{
+    margin-bottom: 20px;
+}
+
+ .cloudy {
+    margin-bottom: 20px;
+ }
+ .humidity {
+    margin-bottom: 20px;
+ }
+ .pressure {
+    margin-bottom: 20px;
+ }
+ .left-content{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 50px;
+     font-size: 1rem;
+ }
+ .content a{
+     text-decoration: none;
+     color: black;
+ }
+ .weather{
+     color: white;
+     display: flex;
+     min-width: 120vh;
+     justify-content: space-evenly;
+ }
+ .icon-desciption{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-transform: capitalize;
+     margin-top: 20px;
+ }
+ .icon-div img{
+     width: 50px;
+ }
+ .main{
+     font-size: 0.8rem;
+ }
+
+ .weather-show{
+     display: flex;
+ }
+.temp{
+    font-size: 7.5rem;
+}
+.city{
+    font-size: 2.5rem;
+}
+.time{
+    font-size: 0.8rem;
+}
+.city-time{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
